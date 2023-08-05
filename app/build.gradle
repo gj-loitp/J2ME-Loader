@@ -6,7 +6,8 @@ def midletArchivesBaseName
 
 android {
     compileSdk COMPILE_SDK
-    ndkVersion NDK_VERSION
+//    ndkVersion NDK_VERSION
+    ndkVersion '25.2.9519653'
     namespace 'ru.playsoftware.j2meloader'
 
     defaultConfig {
